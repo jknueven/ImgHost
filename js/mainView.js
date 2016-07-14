@@ -14,7 +14,7 @@
       				'main': {
 		        	templateUrl: '../views/home.html',
 		        	controller: 'homeController',
-		        	controllerAs: 'controller',
+		        	controllerAs: 'home',
 		      		},
 		      		'nav': {
 		       		templateUrl: '../views/partials/nav.html',

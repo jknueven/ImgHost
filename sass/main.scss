@@ -16,6 +16,7 @@ header {
 		border-radius: 50%;
 		display:block;
 		margin:auto;
+		box-shadow: 5px 5px 5px grey;
 	}
 	img{
 		height:130px;
@@ -60,4 +61,29 @@ header {
 .images {
 	height:200px;
 	background-color: white;
+}
+
+.imgAdd {
+	margin-top:30px;
+	input{
+	width:50%;
+	display:block;
+	margin:auto;
+	margin-top:20px;
+	border-radius:5px;
+	border:2px solid darken($primaryColor,10);
+	}
+	button{
+	width:100px;
+	display:block;
+	margin-left:200px;
+	margin-top: 20px;
+	background-color:$primaryColor;
+	color:white;
+	}
+	.description{
+		height: 200px;
+		width: 65%;
+		margin-right: 80px;
+	}
 }

@@ -10,7 +10,8 @@ header {
   background-color: #8FC07F;
   border-radius: 50%;
   display: block;
-  margin: auto; }
+  margin: auto;
+  box-shadow: 5px 5px 5px grey; }
 
 .nav img {
   height: 130px;
@@ -48,3 +49,24 @@ header {
 .images {
   height: 200px;
   background-color: white; }
+
+.imgAdd {
+  margin-top: 30px; }
+  .imgAdd input {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid #71af5d; }
+  .imgAdd button {
+    width: 100px;
+    display: block;
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: #8FC07F;
+    color: white; }
+  .imgAdd .description {
+    height: 200px;
+    width: 65%;
+    margin-right: 80px; }

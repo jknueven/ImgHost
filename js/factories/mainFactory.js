@@ -10,8 +10,8 @@
 		 		var call = $http({
 		          method: 'GET',
 		          url: `http://instagramcloneclass.herokuapp.com/images`,
-		          headers : {
-		          	'X_CSRF_TOKEN' : jared
+		          headers: {
+		          	"X_CSRF_TOKEN" : "jared",
 		          }
 		        });	
 		        return call;
@@ -22,16 +22,16 @@
 		 	{
 		 		var call = $http({
 		 			method: 'GET',
-		 			url: `http://instagramcloneclass.herokuapp.com/images/IMAGE_ID_HERE`
-		 			headers: {
-		 				'X_CSRF_TOKEN' : jared
+		 			url: `http://instagramcloneclass.herokuapp.com/images/IMAGE_ID_HERE`,
+		 			header: {
+		 				X_CSRF_TOKEN : "jared",
 		 			}
 		 		});
 		 		return call;
 		 	}
 
 		 	return {
-		 		getImages,
+		 		getImages:getImages,
 		 		//getImg,
 		 		//postImage,
 		 		//likeImage,
