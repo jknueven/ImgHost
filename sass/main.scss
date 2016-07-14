@@ -1,0 +1,35 @@
+$primaryColor: #8FC07F;
+
+body{
+	background-color:lighten($primaryColor,25);
+}
+
+.nav {
+	.logo{
+		height: 150px;
+		width:150px;
+		background-color:$primaryColor;
+		border-radius: 50%;
+		display:block;
+		margin:auto;
+	}
+	img{
+		height:130px;
+		display:block;
+		margin:auto;
+		padding-top: 30px;
+	}
+
+	.menu {
+		
+	.home, .add, {
+		height:30px;
+		width: auto;
+		display:block;
+		margin:auto;
+		border:none;
+		background-color:$primaryColor;
+		color:white;
+	}
+	}
+}

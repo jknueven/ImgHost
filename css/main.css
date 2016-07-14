@@ -1,0 +1,25 @@
+body {
+  background-color: #daead4; }
+
+.nav .logo {
+  height: 150px;
+  width: 150px;
+  background-color: #8FC07F;
+  border-radius: 50%;
+  display: block;
+  margin: auto; }
+
+.nav img {
+  height: 130px;
+  display: block;
+  margin: auto;
+  padding-top: 30px; }
+
+.nav .menu .home, .nav .menu .add {
+  height: 30px;
+  width: auto;
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: #8FC07F;
+  color: white; }
