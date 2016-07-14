@@ -5,7 +5,7 @@
 	.module('imgHost', ['ui.router'])
 	.config(function($stateProvider, $urlRouterProvider) {
 
-	  	$urlRouterProvider.otherwise("/");
+	  	$urlRouterProvider.otherwise("/404.html");
 
 	  	$stateProvider
 	  	.state('home', {
@@ -27,7 +27,7 @@
       				'main': {
 		        	templateUrl: '../views/add.html',
 		        	controller: 'addController',
-		        	controllerAs: 'controller',
+		        	controllerAs: 'add',
 		      		},
 		      		'nav': {
 		       		templateUrl: '../views/partials/nav.html',
@@ -40,7 +40,7 @@
       				'main': {
 		        	templateUrl: '../views/detail.html',
 		        	controller: 'detailController',
-		        	controllerAs: 'controller'
+		        	controllerAs: 'detail'
 		      		},
 		      		'nav': {
 		       		templateUrl: '../views/partials/nav.html',

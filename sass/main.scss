@@ -4,6 +4,10 @@ body{
 	background-color:lighten($primaryColor,25);
 }
 
+header {
+	margin-top: 30px;
+}
+
 .nav {
 	.logo{
 		height: 150px;
@@ -21,15 +25,39 @@ body{
 	}
 
 	.menu {
-		
-	.home, .add, {
-		height:30px;
+		ul{
+			margin-top: 30px;
+			margin-left: 40%;
+			list-style:none;
+			padding:0;
+			li{
+				display: inline-block;
+				margin-left: 20px;
+			}
+		}
+	.home, .add {
+		height:50px;
+		width: 70px;
 		width: auto;
 		display:block;
 		margin:auto;
+		padding-top:12px;
+		font-size: 18px;
+		font-family: "Merienda",cursive;
 		border:none;
 		background-color:$primaryColor;
-		color:white;
+			a{
+			color:white;
+			}
+		}
+		a:hover{
+				background-color:white;	
+				color:$primaryColor;
+			}
 	}
-	}
+}
+
+.images {
+	height:200px;
+	background-color: white;
 }

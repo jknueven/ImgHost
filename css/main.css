@@ -1,6 +1,9 @@
 body {
   background-color: #daead4; }
 
+header {
+  margin-top: 30px; }
+
 .nav .logo {
   height: 150px;
   width: 150px;
@@ -15,11 +18,33 @@ body {
   margin: auto;
   padding-top: 30px; }
 
+.nav .menu ul {
+  margin-top: 30px;
+  margin-left: 40%;
+  list-style: none;
+  padding: 0; }
+  .nav .menu ul li {
+    display: inline-block;
+    margin-left: 20px; }
+
 .nav .menu .home, .nav .menu .add {
-  height: 30px;
+  height: 50px;
+  width: 70px;
   width: auto;
   display: block;
   margin: auto;
+  padding-top: 12px;
+  font-size: 18px;
+  font-family: "Merienda",cursive;
   border: none;
-  background-color: #8FC07F;
-  color: white; }
+  background-color: #8FC07F; }
+  .nav .menu .home a, .nav .menu .add a {
+    color: white; }
+
+.nav .menu a:hover {
+  background-color: white;
+  color: #8FC07F; }
+
+.images {
+  height: 200px;
+  background-color: white; }
