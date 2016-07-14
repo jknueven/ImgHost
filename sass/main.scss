@@ -10,6 +10,21 @@ header {
 
 footer{
 	margin-top:100px;
+	height:80px;
+	width:100%;
+	text-align:center;
+	background:$primaryColor;
+	.disclaimer{
+		img{
+			margin-top: 10px;
+			height:40px;
+
+		}
+		p{
+		padding-top: 0px;
+		color:white;	
+		}
+	}
 }
 
 .nav {

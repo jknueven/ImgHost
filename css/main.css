@@ -5,7 +5,17 @@ header {
   margin-top: 30px; }
 
 footer {
-  margin-top: 100px; }
+  margin-top: 100px;
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  background: #8FC07F; }
+  footer .disclaimer img {
+    margin-top: 10px;
+    height: 40px; }
+  footer .disclaimer p {
+    padding-top: 0px;
+    color: white; }
 
 .nav .logo {
   height: 150px;
