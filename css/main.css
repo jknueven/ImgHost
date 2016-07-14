@@ -4,10 +4,14 @@ body {
 header {
   margin-top: 30px; }
 
+footer {
+  margin-top: 100px; }
+
 .nav .logo {
   height: 150px;
   width: 150px;
   background-color: #8FC07F;
+  border: 1px solid white;
   border-radius: 50%;
   display: block;
   margin: auto;
@@ -17,38 +21,47 @@ header {
   height: 130px;
   display: block;
   margin: auto;
-  padding-top: 30px; }
+  margin-top: 20px;
+  margin-left: 24px; }
 
-.nav .menu ul {
-  margin-top: 30px;
-  margin-left: 40%;
-  list-style: none;
-  padding: 0; }
-  .nav .menu ul li {
-    display: inline-block;
-    margin-left: 20px; }
-
-.nav .menu .home, .nav .menu .add {
-  height: 50px;
-  width: 70px;
-  width: auto;
-  display: block;
-  margin: auto;
-  padding-top: 12px;
-  font-size: 18px;
-  font-family: "Merienda",cursive;
-  border: none;
-  background-color: #8FC07F; }
-  .nav .menu .home a, .nav .menu .add a {
-    color: white; }
-
-.nav .menu a:hover {
-  background-color: white;
-  color: #8FC07F; }
+.nav .menu {
+  background-color: #8FC07F;
+  border-top: 1px solid #e9f2e6;
+  border-bottom: 2px solid #5a9148;
+  margin-top: 20px; }
+  .nav .menu ul {
+    margin-top: 10px;
+    margin-left: 40%;
+    list-style: none;
+    padding: 0; }
+    .nav .menu ul li {
+      display: inline-block;
+      margin-left: 20px; }
+  .nav .menu .home, .nav .menu .add {
+    height: 100%;
+    width: 70px;
+    width: auto;
+    display: block;
+    margin: auto;
+    padding-top: 12px;
+    font-size: 18px;
+    font-family: "Merienda",cursive;
+    border: none;
+    background-color: #8FC07F; }
+    .nav .menu .home a, .nav .menu .add a {
+      color: white; }
+  .nav .menu a:hover {
+    background-color: white;
+    color: #8FC07F; }
 
 .images {
-  height: 200px;
-  background-color: white; }
+  margin-top: 40px;
+  width: auto; }
+  .images img {
+    height: 220px;
+    width: 290px;
+    background-color: white;
+    border-radius: 4px; }
 
 .imgAdd {
   margin-top: 30px; }

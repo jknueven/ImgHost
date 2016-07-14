@@ -1,8 +1,8 @@
 <div class="col-md-8 imgAdd">
-	<form>
-		<input type="text" name="title" placeholder="Title">
-		<input type="text" name="url" placeholder="Image URL">
-		<input type="text" class="description" name="description" placeholder="Description">
-		<button class="btn btn-submit">Submit</button>
+	<form ng-submit="add.submit()">
+		<input type="text" name="title" placeholder="Title" ng-model="add.form.title">
+		<input type="text" name="url" placeholder="Image URL" ng-model="add.form.url">
+		<input type="textarea" class="description" name="description" placeholder="Description" ng-model="add.form.description">
+		<button type="submit" class="btn btn-submit">Submit</button>
 	</form>
 </div>

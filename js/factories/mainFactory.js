@@ -18,6 +18,19 @@
 
 		 	}
 
+		 	function postImage(data)
+		 	{
+		 		var going = $http({
+		 			method: 'POST',
+		 			data: data,
+		 			headers: {
+		 				"X_CSRF_TOKEN" : "jared",
+		 			},
+		 			url: `http://instagramcloneclass.herokuapp.com/image/post`,
+		 		});
+		 		return going;
+		 	}
+
 		 	function getImg(img)
 		 	{
 		 		var call = $http({
@@ -33,7 +46,7 @@
 		 	return {
 		 		getImages:getImages,
 		 		//getImg,
-		 		//postImage,
+		 		postImage:postImage,
 		 		//likeImage,
 		 	}
 	});
