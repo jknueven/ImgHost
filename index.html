@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="imgHost">
+<head>
+	 <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+</head>
+<body>
+
+<header><div ui-view="nav"></div> </header>
+
+
+
+<main class="clearfix" ui-view="main"></main>
+
+<footer></footer>
+
+<script src="js/mainView.js"></script>
+<script src="js/factories/mainFactory.js"></script>
+<script src="js/controllers/homeController.js"></script>
+<script src="js/controllers/addController.js"></script>
+<script src="js/controllers/detailController.js"></script>
+</body>
+</html>
