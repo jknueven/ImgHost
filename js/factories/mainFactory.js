@@ -31,6 +31,22 @@
 		 		return going;
 		 	}
 
+		 	function postLikes(id)
+		 	{
+		 		var data = {
+		 			imageid: id,
+		 		}
+		 		var liked = $http({
+		 			method: "POST",
+		 			data: data,
+		 			headers: {
+		 				"X_CSRF_TOKEN" : "jared",
+		 			},
+		 			url: 'http://instagramcloneclass.herokuapp.com/images/vote',
+		 		});
+		 		return liked;
+		 	}
+
 		 	function getImg(img)
 		 	{
 		 		var call = $http({
@@ -47,7 +63,7 @@
 		 		getImages:getImages,
 		 		//getImg,
 		 		postImage:postImage,
-		 		//likeImage,
+		 		postLikes:postLikes,
 		 	}
 	});
 })();

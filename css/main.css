@@ -36,7 +36,7 @@ footer {
 
 .nav .menu {
   background-color: #8FC07F;
-  border-top: 1px solid #e9f2e6;
+  border-top: 2px solid #e9f2e6;
   border-bottom: 2px solid #5a9148;
   margin-top: 20px; }
   .nav .menu ul {
@@ -53,16 +53,19 @@ footer {
     width: auto;
     display: block;
     margin: auto;
-    padding-top: 12px;
+    padding-top: 10px;
     font-size: 18px;
     font-family: "Merienda",cursive;
-    border: none;
-    background-color: #8FC07F; }
+    border: 1px solid white;
+    color: white;
+    background-color: #b55437;
+    box-shadow: 5px 5px 5px grey; }
     .nav .menu .home a, .nav .menu .add a {
       color: white; }
   .nav .menu a:hover {
     background-color: white;
-    color: #8FC07F; }
+    color: #8E422B;
+    border: 1px solid #8E422B; }
 
 .images {
   margin-top: 40px;
@@ -81,7 +84,9 @@ footer {
     margin: auto;
     margin-top: 20px;
     border-radius: 5px;
-    border: 2px solid #71af5d; }
+    border: 1px solid #8E422B;
+    color: #8E422B;
+    background-color: white; }
   .imgAdd button {
     width: 100px;
     display: block;
