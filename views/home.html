@@ -1,7 +1,14 @@
 <div class="row homeImgs">
 
 <div class="col-md-3 images" ng-repeat="images in home.data" > 
-<img ng-dblclick="home.postLikes(images.id)" ng-init="count=0" src="{{images.url}}"> 
+<div class="imageContainer">
+<img ng-dblclick="home.postLikes(images)" ng-init="count=0" src="{{images.url}}"> 
+<i class="fa fa-heart ng-hide" ng-show="images.show"></i><i class="fa fa-heart highlight ng-hide" ng-show="images.show"></i>
 </div>
-
+<div ng-show="" class="ng-hide"></div>
+<div class="bar">
+<i class="fa fa-gratipay" aria-hidden="true"></i><p>: {{images.likes | number}}</p>
+<a ui-sref="detail"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></a>
+</div>
+</div>
 </div>

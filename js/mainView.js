@@ -35,7 +35,7 @@
 		  		},
 	  		})
 	  	.state('detail', {
-	  		url: "/detail", 
+	  		url: "/detail/:imageid", 
 	  		views: {
       				'main': {
 		        	templateUrl: '../views/detail.html',

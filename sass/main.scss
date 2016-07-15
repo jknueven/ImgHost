@@ -88,13 +88,13 @@ footer{
 }
 
 .images {
-	margin-top:40px;
+	margin-top:20px;
 	width:auto;
 	img{
 	height:220px;
 	width:290px;
 	background-color: white;
-	border-radius:4px;
+	border-radius:4px 4px 0px 0px;
 	}
 }
 
@@ -122,5 +122,43 @@ footer{
 		height: 200px;
 		width: 65%;
 		margin-right: 80px;
+	}
+}
+
+.bar {
+	height:30px;
+	//margin-top:-3px;
+	background-color:lighten($primaryColor,5);
+	border-radius: 0px 0px 3px 3px;
+	border-bottom: 1px solid $secondaryColor;
+	p{
+		font-size: 16px;
+		color:white;
+		display: inline-block;
+	}
+	i{
+		display: inline-block;
+		margin-left:80px;
+		margin-top: 5px;
+		color:white;
+		font-size: 20px;
+	}
+}
+
+.imageContainer {
+
+	i{
+	color:$secondaryColor;
+    font-size: 70px;
+    left: 41%;
+    position: absolute;
+    top: 33%;
+	}
+	.highlight {
+		color:white;
+		font-size: 65px;
+		left: 42%;
+    	position: absolute;
+    	top: 33%;
 	}
 }

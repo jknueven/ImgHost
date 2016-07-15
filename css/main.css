@@ -68,13 +68,13 @@ footer {
     border: 1px solid #8E422B; }
 
 .images {
-  margin-top: 40px;
+  margin-top: 20px;
   width: auto; }
   .images img {
     height: 220px;
     width: 290px;
     background-color: white;
-    border-radius: 4px; }
+    border-radius: 4px 4px 0px 0px; }
 
 .imgAdd {
   margin-top: 30px; }
@@ -98,3 +98,33 @@ footer {
     height: 200px;
     width: 65%;
     margin-right: 80px; }
+
+.bar {
+  height: 30px;
+  background-color: #9ec890;
+  border-radius: 0px 0px 3px 3px;
+  border-bottom: 1px solid #8E422B; }
+  .bar p {
+    font-size: 16px;
+    color: white;
+    display: inline-block; }
+  .bar i {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px; }
+
+.imageContainer i {
+  color: #8E422B;
+  font-size: 70px;
+  left: 41%;
+  position: absolute;
+  top: 33%; }
+
+.imageContainer .highlight {
+  color: white;
+  font-size: 65px;
+  left: 42%;
+  position: absolute;
+  top: 33%; }
