@@ -2,7 +2,7 @@ body {
   background-color: #daead4; }
 
 header {
-  margin-top: 30px; }
+  margin-top: 10px; }
 
 footer {
   margin-top: 100px;
@@ -128,3 +128,11 @@ footer {
   left: 42%;
   position: absolute;
   top: 33%; }
+
+.detailImg {
+  margin-top: 30px; }
+  .detailImg .imageContainer img {
+    width: 650px; }
+  .detailImg .detLikes {
+    color: #8FC07F;
+    font-size: 30px; }

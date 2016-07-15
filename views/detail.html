@@ -1,0 +1,14 @@
+<div class="row Detail">
+	<div class="col-md-7 detailImg">
+		<div class="imageContainer">
+			<img ng-dblclick="detail.postLikes(detail.data)" ng-init="count=0" src="{{detail.data.url}}"> 
+			<i class="fa fa-heart ng-hide" ng-show="detail.data.show"></i>
+			<i class="fa fa-heart highlight ng-hide" ng-show="detail.data.show"></i>
+		</div>
+	</div>
+	<div class="col-md-5 details">
+	<div><h2>{{detail.data.title}}</h2></div>
+	<div><p>{{detail.data.description}}</p></div>
+	<div class="detLikes"><i class="fa fa-gratipay" aria-hidden="true"></i>:{{detail.data.likes | number}}x</div>
+	</div>
+</div>

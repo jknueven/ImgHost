@@ -6,7 +6,7 @@ body{
 }
 
 header {
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 footer{
@@ -160,5 +160,21 @@ footer{
 		left: 42%;
     	position: absolute;
     	top: 33%;
+	}
+}
+
+.detailImg {
+	margin-top:30px;
+	.imageContainer{
+		img{
+			width: 650px;
+		}
+	}
+	.detLikes{
+		color:$primaryColor;
+		font-size: 30px;
+		i{
+			
+		}
 	}
 }

@@ -47,11 +47,11 @@
 		 		return liked;
 		 	}
 
-		 	function getImg(img)
+		 	function getAnImage(id)
 		 	{
 		 		var call = $http({
 		 			method: 'GET',
-		 			url: `http://instagramcloneclass.herokuapp.com/images/IMAGE_ID_HERE`,
+		 			url: 'http://instagramcloneclass.herokuapp.com/images/'+id,
 		 			header: {
 		 				X_CSRF_TOKEN : "jared",
 		 			}
@@ -61,7 +61,7 @@
 
 		 	return {
 		 		getImages:getImages,
-		 		//getImg,
+		 		getAnImage:getAnImage,
 		 		postImage:postImage,
 		 		postLikes:postLikes,
 		 	}
