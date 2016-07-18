@@ -170,11 +170,93 @@ footer{
 			width: 650px;
 		}
 	}
-	.detLikes{
-		color:$primaryColor;
+}
+
+.details {
+	margin-top:30px;
+	margin-left:-30px;
+	color:$primaryColor;
+	background-color:white;
+	border-radius:5px;
+	padding-bottom:10px;
+	h2 {
+		text-decoration: underline;
+		font-family: "Merienda";
+	}
+	p{
+		font-size: 20px;
+	}
+	i{
 		font-size: 30px;
-		i{
-			
-		}
+	}
+
+	.detLikes{
+		font-size: 30px;
+		font-family: "Merienda";
 	}
 }
+
+@media only screen and (max-width: 990px) {
+	.menu {
+		ul{
+			margin-left: 20%;
+		}
+	}
+	.detailImg {
+		.imageContainer{
+		img{
+			width:90%;
+			}	
+		}
+			
+	}
+	footer{
+		margin-bottom: 0;
+	}
+	.imgAdd {
+	button{
+	margin-left:230px;
+	}
+	.description{
+		height: 200px;
+		width: 65%;
+		margin-right: 93px;
+	}
+}
+} 
+@media only screen and (max-width: 3700px) {
+	.images{
+		margin-left: 20px;
+	}
+	.menu {
+		ul {
+			li{
+				margin: auto;
+			}
+		}
+		.home, .add{
+			margin-left: -30px;
+		}
+	}
+	.detailImg {
+		.imageContainer{
+		img{
+			width:90%;
+			}	
+		}
+			
+	}
+	footer{
+		margin-bottom: 0;
+	}
+	.imgAdd {
+	button{
+	margin-left:100px;
+	}
+	.description{
+		height: 200px;
+		width: 65%;
+		margin-right: 55px;
+	}
+}
+} 

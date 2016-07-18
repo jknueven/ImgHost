@@ -1,5 +1,5 @@
 <div class="row homeImgs">
-	<div class="col-md-3 images" ng-repeat="images in home.data" > 
+	<div class="col-md-3 col-sm-3 col-xs-12 images" ng-repeat="images in home.data" > 
 		<div class="imageContainer">
 			<img ng-dblclick="home.postLikes(images)" ng-init="count=0" src="{{images.url}}"> 
 			<i class="fa fa-heart ng-hide" ng-show="images.show"></i>
