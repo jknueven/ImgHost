@@ -9,7 +9,7 @@
 
 	  	$stateProvider
 	  	.state('home', {
-	  			url: '/',
+	  			url: '/home',
 	  			views: {
       				'main': {
 		        	templateUrl: '../views/home.html',
