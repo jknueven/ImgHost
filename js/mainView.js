@@ -5,11 +5,11 @@
 	.module('imgHost', ['ui.router'])
 	.config(function($stateProvider, $urlRouterProvider) {
 
-	  	$urlRouterProvider.otherwise("/");
+	  	//$urlRouterProvider.otherwise("/");
 
 	  	$stateProvider
 	  	.state('home', {
-	  			url: '/home.html',
+	  			url: '/',
 	  			views: {
       				'main': {
 		        	templateUrl: '../views/home.html',
