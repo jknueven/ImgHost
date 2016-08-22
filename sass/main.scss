@@ -89,10 +89,10 @@ footer{
 
 .images {
 	margin-top:20px;
-	width:auto;
+	//width:auto;
 	img{
 	height:220px;
-	width:290px;
+	width:100%;
 	background-color: white;
 	border-radius:4px 4px 0px 0px;
 	}
@@ -226,7 +226,7 @@ footer{
 } 
 @media only screen and (max-width: 3700px) {
 	.images{
-		margin-left: 20px;
+		//margin-left: 20px;
 	}
 	.menu {
 		ul {

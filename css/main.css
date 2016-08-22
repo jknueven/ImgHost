@@ -68,11 +68,10 @@ footer {
     border: 1px solid #8E422B; }
 
 .images {
-  margin-top: 20px;
-  width: auto; }
+  margin-top: 20px; }
   .images img {
     height: 220px;
-    width: 290px;
+    width: 100%;
     background-color: white;
     border-radius: 4px 4px 0px 0px; }
 
@@ -167,8 +166,6 @@ footer {
     margin-right: 93px; } }
 
 @media only screen and (max-width: 3700px) {
-  .images {
-    margin-left: 20px; }
   .menu ul li {
     margin: auto; }
   .menu .home, .menu .add {
