@@ -95,7 +95,7 @@ footer {
     color: white; }
   .imgAdd .description {
     height: 200px;
-    width: 65%;
+    width: 50%;
     margin-right: 80px; }
 
 .bar {
@@ -158,12 +158,9 @@ footer {
     width: 90%; }
   footer {
     margin-bottom: 0; }
-  .imgAdd button {
-    margin-left: 230px; }
   .imgAdd .description {
     height: 200px;
-    width: 65%;
-    margin-right: 93px; } }
+    width: 65%; } }
 
 @media only screen and (max-width: 3700px) {
   .menu ul li {
@@ -174,9 +171,6 @@ footer {
     width: 90%; }
   footer {
     margin-bottom: 0; }
-  .imgAdd button {
-    margin-left: 100px; }
   .imgAdd .description {
     height: 200px;
-    width: 65%;
-    margin-right: 55px; } }
+    width: 65%; } }
