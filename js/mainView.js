@@ -5,7 +5,7 @@
 	.module('imgHost', ['ui.router'])
 	.config(function($stateProvider, $urlRouterProvider) {
 
-	  	//$urlRouterProvider.otherwise("/");
+	  	$urlRouterProvider.otherwise("/");
 
 	  	$stateProvider
 	  	.state('home', {

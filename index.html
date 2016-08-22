@@ -10,14 +10,19 @@
     <script src="https://use.fontawesome.com/ae699f5e09.js"></script>
 </head>
 <body>
+
 <div class="container-fluid">
-<header><div ui-view="nav"></div> </header>
+	<header><div ui-view="nav"></div> </header>
 
-
-
-<main class="clearfix" ui-view="main"></main>
+	<main class="clearfix" ui-view="main"></main>
 </div>
-<footer><div class="disclaimer"><img src="images/logo.svg"><p>Copyright of JKnueven 2016. Credit to The Noun Project for Logo. Done in Sublime, with use of HTML,CSS,SASS,Javascript,Angular,and BootstrapCDN</p></div></footer>
+
+<footer>
+	<div class="disclaimer">
+		<img src="images/logo.svg">
+		<p>Copyright of JKnueven 2016. Credit to The Noun Project for Logo. Done in Sublime, with use of HTML,CSS,SASS,Javascript,Angular,and BootstrapCDN</p>
+	</div>
+</footer>
 
 <script src="js/mainView.js"></script>
 <script src="js/factories/mainFactory.js"></script>
